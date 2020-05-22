@@ -1,8 +1,6 @@
 import pygame
 import random
 import math
-from pygame import mixer
-import numpy as np
 
 #Initialize the game
 pygame.init()
@@ -35,8 +33,8 @@ playerX_change = 0
 playerY_change = 0
 gameloop = 1
 #Ball
-ballX = 400
-ballY = 150
+ballX = random.randint(0,800)
+ballY = random.randint(0,100)
 ball_radius = 10
 ballX_change = 0.5
 ballY_change = 0.5
